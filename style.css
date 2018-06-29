@@ -11,7 +11,7 @@ body {
 /*NAVBAR*/
 .navbar {
   /*background-color: #C0C0C0;*/
-  background-color: #C0C0C0;
+  background-color: #808080;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -230,7 +230,8 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #3498db;
+  /*background: #3498db;*/
+  background: #808080;  
   text-align: center;
 }
 
@@ -246,7 +247,8 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  /*background: #1d6fa5;*/
+  background: #C0C0C0;
   color: #fff;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
