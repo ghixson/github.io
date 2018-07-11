@@ -139,7 +139,6 @@ body {
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #C0C0C0;
   text-transform: uppercase;
   text-align: center;
 }
@@ -175,7 +174,6 @@ h2 {
 h4 {
   margin: 0;
   font-weight: 400;
-  color: grey;
 }
 
 .job-title {
@@ -206,7 +204,6 @@ h4 {
 .project-content {
   flex: 1 1 auto;
   padding: 1.25rem;
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -223,7 +220,7 @@ h4 {
   margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #C0C0C0;
+  background: #808080;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
