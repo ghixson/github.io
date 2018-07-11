@@ -56,8 +56,9 @@ body {
   /*YOUR NAME*/
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 0;
+  color: white;
 }
 
 .jumbotron-text p {
