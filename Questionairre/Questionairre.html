@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML>    
+    <head>
+        <meta charset="UTF-8">
+        <title>Patient Information</title>
+        
+        <script>
+            
+            function myButton(){
+                window.location = 'response.html';
+            }
+            
+        </script>
+        
+        <style>
+        
+            body {
+                background-color: antiquewhite;
+                font-family: monospace;                
+            }
+
+            input {
+                margin: 0.50em;
+                font-family: monospace;
+            }
+            
+            button {
+                margin: 0.25em;
+            }
+            
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            #main {
+                margin-left: 5em;
+            }
+
+        </style>
+    </head> 
+
+    <body>
+        <H1>Welcome to Shady Grove Hospital</H1>
+        
+        <div><span>Name:<input type = 'text' name = 'name'></span></div>
+        <div><span>Gender:<input type = 'radio' name = 'gender' value = 'male'>Male<input type = 'radio' name = 'gender' value = 'female'>Female<input type = 'radio' name = 'gender' value = 'other'>Other</span></div>
+        <div><span>Nationality:<input type = 'text' name = 'nationality'></span></div>
+        <div><span>Please describe your condition:</span></div>
+        <div><textarea rows = '4' cols = '50' name = 'description'></textarea></div>
+        
+        <div><button type="button" onclick='myButton()'>Submit</button></div>
+    </body>
+</HTML>
